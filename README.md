@@ -18,3 +18,5 @@ Currently Calc supports the following operations:
 5. Modulus (%)
 
 6. Exponentiation (^)
+
+The command `exit` is used to exit the program.
