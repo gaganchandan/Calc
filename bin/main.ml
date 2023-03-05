@@ -33,7 +33,7 @@ let rec eval e = if is_value e then e else e |> step |> eval
 let interpret s = s |> parse |> eval |> string_of_val
 
 let () =
-  print_endline "Calc v1.0";
+  print_endline "Calc v1.0.0-alpha";
   print_endline "*******************";
   while true do
     try
