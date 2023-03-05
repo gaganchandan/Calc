@@ -22,7 +22,7 @@ prog:
 expr:
     | term { $1 }
     | expr PLUS term { Ast.Binop(Add, $1, $3) }
-    | expr MINUS term { Ast.Binop(Sub,$1, $3) }
+    | expr MINUS term { Ast.Binop(Sub, $1, $3) }
     ;
 
 term: 
